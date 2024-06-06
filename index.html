@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+    <div id = "dexleft">
+
+        <div id ="borderScreen">
+        </div>
+
+        <div id = "boxes">
+            <div id = "square"><img src="187.png" alt="HTML lien 3" style="width:50px;height:50px;"></div>
+            <div id = "square"><img src="188.png" alt="HTML lien 3" style="width:50px;height:50px;"></div>
+            <div id = "square"><img src="189.png" alt="HTML lien 3" style="width:50px;height:50px;"></div>
+            <div id = "square"><img src="188.png" alt="HTML lien 3" style="width:50px;height:50px;"></div>
+            <div id = "square"><img src="189.png" alt="HTML lien 3" style="width:50px;height:50px;"></div>
+        </div>
+
+        <div id = "searchbar">
+            <form id = "form" class="wrap" method="POST" action="#" onsubmit="Click(event)">
+                <input id="bar" type="text" placeholder=" Ϟ(๑⚈ ․̫ ⚈๑)⋆">
+                <button id ="search" type="submit ">SEARCH</button>
+        </form>
+        </div>
+
+    </div>
+
+    <div id = "middle"> </div>
+
+    <div id = "dexright1">
+
+        <div id="infosScreen">
+        </div>
+
+        <div id = "carres">
+            <div id = "carreB1"></div>
+            <div id = "carreB2"></div>
+        </div>
+        <div id = "recN1"></div>
+
+        <div id = "recN2">
+            <div id = "Lumiere">
+                <form id = "form" class="wrap" method="POST" action="#" onsubmit="Count(event)">
+                <button id ="OnOff" type="submit ">ON / OFF</button>
+            </div>
+            </form>
+        </div> 
+
+    </div>
+
+    <div id = "dexedge"> </div>
+
+    <div id = "dexright2">
+
+        <div id = "NextBefore">
+            <form id="BN" onsubmit="NextBefore(event)">
+                <button id="before" type="button">Before</button>
+                <button id="next" type="button">Next</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
